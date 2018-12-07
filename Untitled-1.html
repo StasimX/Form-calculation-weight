@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Расчёт идеальной массы тела</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Untitled-2.css"></link>
+  </head>
+  <body>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Личные данные</legend>
+          <div class="personal-info">
+            <label for="height">Укажите ваш рост [см]</label>
+            <input type="number" name="height" id="height" placeholder=" в СМ" min="0" max="300"> <br>
+            <br>
+            <label for="age"> Ваш возраст [см]</label>
+            <input type="number" name="age" id="age" min="0" max="100" placeholder=" в СМ">
+            <br>
+            <br>
+            <label for="index">Обхват запястья [см]</label>
+            <input type="number" name="index" id="index" min="0" max="30" placeholder=" в СМ">
+            <br>
+            <br>
+            <label for="gender">Пол:
+                <input type="radio" name="gender" value="man"> Мужской
+                <input type="radio" name="gender" value="woman"> Женский
+            </label>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Расчёт</legend>
+          <div class="calculation">
+            <label for="calculate"></label>
+            <input type="button" value="Посчитать" onclick="calculateBottom()">
+            <label for="reset"></label>
+            <input type="reset" value="Сбросить">
+          </div>
+        </fieldset>
+        <div>
+            <p class="result"></p>
+        </div>
+    </form>      
+    </main>
+    <script src="Untitled-3.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+form {
+    display: left;
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;  
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+  }
+  fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+  
+    border: 1px solid #34495e;
+    border-radius: 5px;
+  }
+  
+  fieldset legend {
+    color: #34495e;
+  }
+  
+  label {
+    padding: 10px;
+  }
+  
+  input[type="reset"],
+  input[type="button"] {
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(124,252,0,0.5);
+    outline: none;
+    background-image: linear-gradient(to bottom, #FFFFE0, #FFFACD);  
+   }
+  
+  button:hover {
+    background-image: linear-gradient(to bottom, #FA8072, #FF0000);
+  }
